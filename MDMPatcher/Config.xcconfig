@@ -1,0 +1,17 @@
+// Shared configuration for external libraries (libimobiledevice, libirecovery)
+// Add this file to your project and assign it to your target's build configurations.
+// It preserves existing settings via $(inherited).
+
+HEADER_SEARCH_PATHS = $(inherited) \
+    /opt/homebrew/include \
+    /usr/local/include \
+    /opt/homebrew/include/libirecovery \
+    /usr/local/include/libirecovery
+
+LIBRARY_SEARCH_PATHS = $(inherited) \
+    /opt/homebrew/lib \
+    /usr/local/lib
+
+// If you need recursive header search for nested includes, uncomment the next lines:
+// HEADER_SEARCH_PATHS = $(HEADER_SEARCH_PATHS)/**
+

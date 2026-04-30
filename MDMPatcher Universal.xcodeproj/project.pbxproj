@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3FF40682FA0F7A800E3EC7E /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C3FF40672FA0F7A800E3EC7E /* Config.xcconfig */; };
 		E45B209926C57749002F4709 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45B209826C57749002F4709 /* AppDelegate.swift */; };
 		E45B209B26C57749002F4709 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45B209A26C57749002F4709 /* ViewController.swift */; };
 		E45B209D26C5774B002F4709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E45B209C26C5774B002F4709 /* Assets.xcassets */; };
@@ -70,6 +71,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C3FF40672FA0F7A800E3EC7E /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		E45B209526C57749002F4709 /* MDMPatcher Enhanced.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MDMPatcher Enhanced.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E45B209826C57749002F4709 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E45B209A26C57749002F4709 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 				E462DD2326D7FEED007CC2B0 /* idevicebackup2.h */,
 				E45B20EB26C5855E002F4709 /* thread.h */,
 				E45B20D926C5835B002F4709 /* MDMPatcher-Bridging-Header.h */,
+				C3FF40672FA0F7A800E3EC7E /* Config.xcconfig */,
 			);
 			path = MDMPatcher;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				E46C15F726D8408D001D6349 /* extension1.pdf in Resources */,
 				E46C15F626D8408D001D6349 /* extension2.pdf in Resources */,
 				E45B209D26C5774B002F4709 /* Assets.xcassets in Resources */,
+				C3FF40682FA0F7A800E3EC7E /* Config.xcconfig in Resources */,
 				E45B20A026C5774B002F4709 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,8 +453,8 @@
 				ENABLE_HARDENED_RUNTIME = NO;
 				EXCLUDED_ARCHS = arm64;
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/common",
 					/usr/local/include,
+					/opt/homebrew/include,
 					/opt/homebrew/Cellar/,
 					/opt/homebrew/Cellar/libplist/2.7.0/include,
 					/opt/homebrew/Cellar/libirecovery/1.2.1/include,
@@ -465,8 +469,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
-					"$(SRCROOT)/common",
-					"$(PROJECT_DIR)/iMDMActivatePro",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = v1.0;
@@ -493,8 +495,8 @@
 				ENABLE_HARDENED_RUNTIME = NO;
 				EXCLUDED_ARCHS = arm64;
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/common",
 					/usr/local/include,
+					/opt/homebrew/include,
 					/opt/homebrew/Cellar/,
 					/opt/homebrew/Cellar/libplist/2.7.0/include,
 					/opt/homebrew/Cellar/libirecovery/1.2.1/include,
@@ -509,8 +511,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
-					"$(SRCROOT)/common",
-					"$(PROJECT_DIR)/iMDMActivatePro",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = v1.0;
