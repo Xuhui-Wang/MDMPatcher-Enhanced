@@ -55,7 +55,7 @@ No jailbreak is required. No low-level kernel or firmware modifications are perf
   - **For iPhones with Face ID or iPhone 8 and later:** Press and hold the Side Button while connecting it to your computer. Keep holding the button until the recovery mode screen appears.
   - **For iPhone 7 and 7 Plus:** Hold the Volume Down button and connect it to your computer.
   - **For iPhone 6s and earlier:** Hold the Home Button while connecting it to your computer.
-- Once in recovery mode, a message will appear on your computer asking if you want to update or restore the device. **Hold the OPTION key** on your keyboard, then click either **Update** or **Restore**. This will allow you to choose the IPSW file you downloaded for your device.
+- Once in recovery mode, a message will appear on your computer asking if you want to update or restore the device. **Hold the OPTION key** on your keyboard, then click either **Restore**. This will allow you to choose the IPSW file you downloaded for your device.
 - After restoration, follow initial setup **until you reach the Wi-Fi selection** screen. **Do NOT connect to ANY network!**
 - Open the MDMPatcher app on your Mac.
 - Disable SIP if the app won’t open (for M1 Macs: use csrutil disable in recovery mode terminal).
